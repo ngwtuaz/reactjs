@@ -1,0 +1,23 @@
+.container {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.table {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}   
+.btn-action{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* .btn-add {
+    left: 200px;
+} */

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, redirect } from "react-router-dom";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -20,10 +20,18 @@ import TodoLab2 from './components/listTodo/todoLab2.jsx';
 import Lab5 from './components/lab5/lab5.jsx';
 import Add from './components/lab5/add.jsx';
 import Lab5Api from './components/lab5/data.jsx';
+import Login from './components/login.jsx';
 
 // import './demo_redux.js'
 
-
+function checkToken() {
+  let token = localStorage.getItem("access_token");
+  if(token){
+    return redirect("/");
+  } else {
+    return null;
+  }
+}
 
 const routers = createBrowserRouter([
   {
@@ -72,6 +80,11 @@ const routers = createBrowserRouter([
       {
         path: "about",
         element: <About />
+      },
+      {
+        path: "login",
+        loader:checkToken,
+        element: <Login />
       }
     ]
   },

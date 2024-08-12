@@ -11,6 +11,12 @@
       "email": "tuanadmin@gmail.com",
       "password": "$2a$08$MvvmEz/qVcspq40bLD2uDOF794ZLh5.wUxAosNKT07vJINWSEEQzO",
       "role": "admin"
+    },
+    {
+      "username": "tuancui",
+      "email": "tuan1@gmail.com",
+      "password": "$2a$08$bkpxe1HD2iTPN5tPL93ub.C7aDo06rNhfEuSEgp0P4biTtdhgUahW",
+      "role": "user"
     }
   ],
   "expenses": [
@@ -28,6 +34,14 @@
       "date": "2024-08-07",
       "amount": "2000",
       "category": "Shopping",
+      "user": "tuanadmin@gmail.com"
+    },
+    {
+      "id": "1723039224837",
+      "description": "hoc js",
+      "date": "2024-08-04",
+      "amount": "1000",
+      "category": "Education",
       "user": "tuanadmin@gmail.com"
     }
   ]

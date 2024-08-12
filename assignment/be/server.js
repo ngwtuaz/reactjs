@@ -162,7 +162,7 @@ app.delete('/expenses/:id', authenticateToken, (req, res) => {
 
     database.expenses.splice(expenseIndex, 1);
     writeDatabase(database);
-    res.status(200).send('xóa chi phí thành công');
+    res.status(200).send('Expense deleted successfully');
 });
 
 //expense overview

@@ -30,7 +30,7 @@
       "img": "https://43metvuongcaphe.com/wp-content/uploads/2022/12/Tra-Sua-Kem-Trung-Dua-Nuong.jpg",
       "size": "S",
       "price": 50000,
-      "categoriesSize": 44
+      "categoriesSize": 22
     },
     {
       "id": "6",
@@ -38,7 +38,7 @@
       "img": "https://43metvuongcaphe.com/wp-content/uploads/2021/12/Ca-Phe-Kem-Trung-1.jpg",
       "size": "S",
       "price": 50000,
-      "categoriesSize": 44
+      "categoriesSize": 33
     },
     {
       "id": "7",
@@ -46,7 +46,7 @@
       "img": "https://43metvuongcaphe.com/wp-content/uploads/2021/08/Ca-Phe-Muoi-Chai-1.jpg",
       "size": "S",
       "price": 50000,
-      "categoriesSize": 44
+      "categoriesSize": 33
     },
     {
       "id": "8",
@@ -54,7 +54,7 @@
       "img": "https://43metvuongcaphe.com/wp-content/uploads/2022/12/Ca-Phe-Sua-Sai-Gon-.jpg",
       "size": "S",
       "price": 50000,
-      "categoriesSize": 44
+      "categoriesSize": 11
     },
     {
       "id": "9",
@@ -62,7 +62,7 @@
       "img": "https://43metvuongcaphe.com/wp-content/uploads/2022/12/Sua-Tuoi-Tran-Chau-Duong-Den.jpg",
       "size": "s",
       "price": 50000,
-      "categoriesSize": 44
+      "categoriesSize": 22
     }
   ],
   "categoriesSize": [
@@ -77,10 +77,6 @@
     {
       "id": "33",
       "size": "L"
-    },
-    {
-      "id": "44",
-      "size": "S"
     }
   ],
   "checkout": [
